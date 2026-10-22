@@ -51,3 +51,12 @@ ApexPlanet 60-Day Full Stack Web Development Internship
 4. Try the Login and Register forms.
 5. Test the Show/Hide password buttons and form validation.
 
+
+## Final Testing Checklist
+
+* [ ] Login form validation tested
+* [ ] Registration form validation tested
+* [ ] Password visibility toggle tested
+* [ ] Password confirmation validation tested
+* [ ] Responsive layout checked
+* [ ] GitHub Pages deployment verified
