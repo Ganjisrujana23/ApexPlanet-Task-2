@@ -32,3 +32,13 @@ This project is a frontend demonstration. It does not provide real authenticatio
 ## Internship
 
 ApexPlanet 60-Day Full Stack Web Development Internship
+
+
+## Project Status
+
+* Login form validation implemented.
+* Registration form validation implemented.
+* Show/Hide password functionality added.
+* Responsive layout for smaller screens.
+* Frontend demonstration project; no real user authentication or database connection.
+
