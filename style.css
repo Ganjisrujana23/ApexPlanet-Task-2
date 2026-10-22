@@ -1,0 +1,138 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e8efff, #f7f9ff);
+    color: #1e293b;
+    min-height: 100vh;
+    padding: 30px 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.welcome h1 {
+    color: #2347a5;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.welcome p {
+    color: #53627a;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.auth-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(20, 40, 90, 0.12);
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.tabs button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #edf1f8;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tabs button.active {
+    background: #2854c5;
+    color: white;
+}
+
+form label {
+    display: block;
+    margin: 14px 0 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd4e2;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.password-field {
+    display: flex;
+    gap: 8px;
+}
+
+.password-field input {
+    flex: 1;
+    min-width: 0;
+}
+
+.toggle-password {
+    padding: 0 12px;
+    border: 1px solid #ccd4e2;
+    border-radius: 8px;
+    background: #f4f6fa;
+    cursor: pointer;
+}
+
+.primary-btn {
+    width: 100%;
+    margin-top: 22px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #2854c5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background: #1d3f9c;
+}
+
+#message {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#registerForm[hidden] {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .container {
+        grid-template-columns: 1fr;
+        margin: 10px auto;
+        gap: 22px;
+    }
+
+    .welcome h1 {
+        font-size: 28px;
+    }
+
+    .auth-card {
+        padding: 22px;
+    }
+}
