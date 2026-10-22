@@ -42,3 +42,12 @@ ApexPlanet 60-Day Full Stack Web Development Internship
 * Responsive layout for smaller screens.
 * Frontend demonstration project; no real user authentication or database connection.
 
+
+## How to Run the Project
+
+1. Download or clone this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in your browser.
+4. Try the Login and Register forms.
+5. Test the Show/Hide password buttons and form validation.
+
